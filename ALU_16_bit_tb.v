@@ -178,6 +178,16 @@ initial begin
     operation = 4'b1001;
     #20
 
+    a = 16'h3;
+    b = 16'h4;
+    operation = 4'b1001;
+    #20
+
+    a = 16'hf234;
+    b = 16'h1234;
+    operation = 4'b1001;
+    #20
+
     a = 16'h1;
     b = 16'h8000;
     operation = 4'b1001;
